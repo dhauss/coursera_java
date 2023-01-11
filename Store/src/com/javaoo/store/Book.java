@@ -10,12 +10,18 @@ public class Book extends Item {
 	}
 	
 	public Book(String title, double price, int quantity, 
-			String author, String publisher, String Category) {
+			String author, String publisher, String category) {
 		super(title, price, quantity);
 		setAuthor(author);
 		setPublisher(publisher);
 		setCategory(category);
 	}	
+	
+	@Override
+	public String toString() {
+		return "Book [author=" + getAuthor() + ", publisher=" + getPublisher() + ", category=" + getCategory() + ", Price="
+				+ getPrice() + ", Quantity=" + getQuantity() + ", Title=" + getTitle() + "]";
+	}
 	
 	
 	public String getAuthor() {
