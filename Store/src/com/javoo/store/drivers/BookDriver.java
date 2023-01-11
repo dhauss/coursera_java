@@ -11,7 +11,7 @@ import java.util.List;
 import com.javaoo.store.Book;
 
 
-public class BookExerciser {
+public class BookDriver {
 
 	public static void main(String[] args) {
 		String location = "/Users/dave/git/coursera_java/Store/src/com/javoo/store/drivers/books.txt";
